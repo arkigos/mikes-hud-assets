@@ -1,0 +1,426 @@
+{
+  "tool": "built-in imagegen for pitches; Pillow composition for installed Druid reference",
+  "sets": [
+    {
+      "id": "D1",
+      "class": "druid",
+      "name": "Bold Bramble and Blood Sap",
+      "inspiration": "Current installed Druid HUD",
+      "summary": "Actual installed bramble casings, five progressive Blood Sap flowers, scratched menu and mail runes, and IM Fell zone lettering. Includes the assembled combo branch and enlarged flower details.",
+      "batch": "current-druid",
+      "sheet": "druid/d1-bold-bramble-and-blood-sap/sheet.png",
+      "size": [
+        1254,
+        1254
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "transparentPixelFraction": 0.7845,
+      "status": "Installed Druid artwork, mechanically arranged for comparison. Component locations are presentation only. Live fills and game icons omitted.",
+      "origin": "Installed TGA textures and font. See druid/d1-bold-bramble-and-blood-sap/provenance.json."
+    },
+    {
+      "id": "P1",
+      "class": "priest",
+      "name": "Vigil of Elune",
+      "inspiration": "Night elf / lunar priesthood",
+      "summary": "Charcoal basalt, worn silver crescents and moonstone.",
+      "batch": "initial",
+      "sheet": "priest/p1-vigil-of-elune/sheet.png",
+      "size": [
+        1254,
+        1254
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "transparentPixelFraction": 0.6771,
+      "status": "Artwork pitch. Final aperture masks, edge cleanup and geometry registration remain before game use.",
+      "origin": "Built-in imagegen"
+    },
+    {
+      "id": "P2",
+      "class": "priest",
+      "name": "Reliquary of the Last Light",
+      "inspiration": "Human / Discipline",
+      "summary": "Black iron, ivory plaques, prayer linen and wax seals.",
+      "batch": "initial",
+      "sheet": "priest/p2-reliquary-of-the-last-light/sheet.png",
+      "size": [
+        1254,
+        1254
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "transparentPixelFraction": 0.6852,
+      "status": "Artwork pitch. Final aperture masks, edge cleanup and geometry registration remain before game use.",
+      "origin": "Built-in imagegen"
+    },
+    {
+      "id": "P3",
+      "class": "priest",
+      "name": "Loa Bone Covenant",
+      "inspiration": "Troll / ritual Shadow",
+      "summary": "Weathered bone, blue fired clay, red cord and spirit stones.",
+      "batch": "initial",
+      "sheet": "priest/p3-loa-bone-covenant/sheet.png",
+      "size": [
+        1254,
+        1254
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "transparentPixelFraction": 0.6871,
+      "status": "Artwork pitch. Final aperture masks, edge cleanup and geometry registration remain before game use.",
+      "origin": "Built-in imagegen"
+    },
+    {
+      "id": "P4",
+      "class": "priest",
+      "name": "The Unburied",
+      "inspiration": "Forsaken / Shadow",
+      "summary": "Funeral iron, cracked memorial porcelain and violet mourning cloth.",
+      "batch": "initial",
+      "sheet": "priest/p4-the-unburied/sheet.png",
+      "size": [
+        1254,
+        1254
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "transparentPixelFraction": 0.6729,
+      "status": "Artwork pitch. Final aperture masks, edge cleanup and geometry registration remain before game use.",
+      "origin": "Built-in imagegen"
+    },
+    {
+      "id": "P5",
+      "class": "priest",
+      "name": "Anchorite's Vigil",
+      "inspiration": "Draenei / Holy",
+      "summary": "Pale mineral plates, smoky amethyst and aged bronze.",
+      "batch": "initial",
+      "sheet": "priest/p5-anchorite-s-vigil/sheet.png",
+      "size": [
+        1254,
+        1254
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "transparentPixelFraction": 0.6745,
+      "status": "Artwork pitch. Final aperture masks, edge cleanup and geometry registration remain before game use.",
+      "origin": "Built-in imagegen"
+    },
+    {
+      "id": "W1",
+      "class": "warrior",
+      "name": "Iron March",
+      "inspiration": "Human / Protection",
+      "summary": "Hammered steel, navy cloth and battered shield fittings.",
+      "batch": "initial",
+      "sheet": "warrior/w1-iron-march/sheet.png",
+      "size": [
+        1254,
+        1254
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "transparentPixelFraction": 0.6525,
+      "status": "Artwork pitch. Final aperture masks, edge cleanup and geometry registration remain before game use.",
+      "origin": "Built-in imagegen"
+    },
+    {
+      "id": "W2",
+      "class": "warrior",
+      "name": "Red Hand",
+      "inspiration": "Orc / Fury",
+      "summary": "Black cleaver iron, red rawhide and chipped cutting bevels.",
+      "batch": "initial",
+      "sheet": "warrior/w2-red-hand/sheet.png",
+      "size": [
+        1254,
+        1254
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "transparentPixelFraction": 0.6868,
+      "status": "Artwork pitch. Final aperture masks, edge cleanup and geometry registration remain before game use.",
+      "origin": "Built-in imagegen"
+    },
+    {
+      "id": "W3",
+      "class": "warrior",
+      "name": "Deepforge",
+      "inspiration": "Dwarf / Protection or Arms",
+      "summary": "Black forge steel, granite and ember-cut geometric runes.",
+      "batch": "initial",
+      "sheet": "warrior/w3-deepforge/sheet.png",
+      "size": [
+        1254,
+        1254
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "transparentPixelFraction": 0.6419,
+      "status": "Artwork pitch. Final aperture masks, edge cleanup and geometry registration remain before game use.",
+      "origin": "Built-in imagegen"
+    },
+    {
+      "id": "W4",
+      "class": "warrior",
+      "name": "Ancestral Hide",
+      "inspiration": "Tauren / Arms",
+      "summary": "Matte horn, dark bison hide, rawhide and muted turquoise.",
+      "batch": "initial",
+      "sheet": "warrior/w4-ancestral-hide/sheet.png",
+      "size": [
+        1254,
+        1254
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "transparentPixelFraction": 0.6985,
+      "status": "Artwork pitch. Final aperture masks, edge cleanup and geometry registration remain before game use.",
+      "origin": "Built-in imagegen"
+    },
+    {
+      "id": "W5",
+      "class": "warrior",
+      "name": "The Unbroken Blade",
+      "inspiration": "Night elf / Sentinel-inspired Arms",
+      "summary": "Moon-dark laminated steel, teal wrappings and silver blade edges.",
+      "batch": "initial",
+      "sheet": "warrior/w5-the-unbroken-blade/sheet.png",
+      "size": [
+        1254,
+        1254
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "transparentPixelFraction": 0.6747,
+      "status": "Artwork pitch. Final aperture masks, edge cleanup and geometry registration remain before game use.",
+      "origin": "Built-in imagegen"
+    },
+    {
+      "id": "R1",
+      "class": "rogue",
+      "name": "Black Ledger",
+      "inspiration": "Human / Subtlety, intelligence service",
+      "summary": "Waxed black leather, gunmetal and discreet silver clasps.",
+      "batch": "initial",
+      "sheet": "rogue/r1-black-ledger/sheet.png",
+      "size": [
+        1254,
+        1254
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "transparentPixelFraction": 0.7074,
+      "status": "Artwork pitch. Final aperture masks, edge cleanup and geometry registration remain before game use.",
+      "origin": "Built-in imagegen"
+    },
+    {
+      "id": "R2",
+      "class": "rogue",
+      "name": "Venomglass",
+      "inspiration": "Forsaken / Assassination",
+      "summary": "Smoked glass, surgical steel, bone clamps and trapped venom.",
+      "batch": "initial",
+      "sheet": "rogue/r2-venomglass/sheet.png",
+      "size": [
+        1254,
+        1254
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "transparentPixelFraction": 0.6872,
+      "status": "Artwork pitch. Final aperture masks, edge cleanup and geometry registration remain before game use.",
+      "origin": "Built-in imagegen"
+    },
+    {
+      "id": "R3",
+      "class": "rogue",
+      "name": "Bilgewater Cutthroat",
+      "inspiration": "Goblin / Combat, privateer",
+      "summary": "Salt-pitted brass, sharkskin, gunmetal and tarred cord.",
+      "batch": "initial",
+      "sheet": "rogue/r3-bilgewater-cutthroat/sheet.png",
+      "size": [
+        1254,
+        1254
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "transparentPixelFraction": 0.6543,
+      "status": "Artwork pitch. Final aperture masks, edge cleanup and geometry registration remain before game use.",
+      "origin": "Built-in imagegen"
+    },
+    {
+      "id": "R4",
+      "class": "rogue",
+      "name": "Blood Silk",
+      "inspiration": "Blood elf / Assassination",
+      "summary": "Black lacquer, narrow silver edges, crimson silk and dark ruby.",
+      "batch": "initial",
+      "sheet": "rogue/r4-blood-silk/sheet.png",
+      "size": [
+        1254,
+        1254
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "transparentPixelFraction": 0.71,
+      "status": "Artwork pitch. Final aperture masks, edge cleanup and geometry registration remain before game use.",
+      "origin": "Built-in imagegen"
+    },
+    {
+      "id": "R5",
+      "class": "rogue",
+      "name": "Web of the Widow",
+      "inspiration": "Night elf / Subtlety",
+      "summary": "Black chitin, matte obsidian, taut silver silk and violet nacre.",
+      "batch": "initial",
+      "sheet": "rogue/r5-web-of-the-widow/sheet.png",
+      "size": [
+        1254,
+        1254
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "transparentPixelFraction": 0.6973,
+      "status": "Artwork pitch. Final aperture masks, edge cleanup and geometry registration remain before game use.",
+      "origin": "Built-in imagegen"
+    },
+    {
+      "id": "P6",
+      "class": "priest",
+      "name": "Saint's Winding",
+      "inspiration": "Holy / spirit-healer vestments",
+      "summary": "Chalk-white glazed clay, folded linen, silver stitching and soft pearl.",
+      "batch": "priest-2",
+      "sheet": "priest/p6-saint-s-winding/sheet.png",
+      "size": [
+        1254,
+        1254
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "transparentPixelFraction": 0.7137,
+      "status": "Artwork pitch. Final aperture masks, edge cleanup and geometry registration remain before game use.",
+      "origin": "Built-in imagegen"
+    },
+    {
+      "id": "P7",
+      "class": "priest",
+      "name": "Scarlet Confession",
+      "inspiration": "Human / Scarlet-inspired zealotry",
+      "summary": "Crimson wax, scorched prayer parchment, soot-black iron and severe ivory seals.",
+      "batch": "priest-2",
+      "sheet": "priest/p7-scarlet-confession/sheet.png",
+      "size": [
+        1254,
+        1254
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "transparentPixelFraction": 0.7147,
+      "status": "Artwork pitch. Final aperture masks, edge cleanup and geometry registration remain before game use.",
+      "origin": "Built-in imagegen"
+    },
+    {
+      "id": "P8",
+      "class": "priest",
+      "name": "Black Benediction",
+      "inspiration": "Shadow / forbidden mental rites",
+      "summary": "Ink-black smoked glass, pale hairline fractures and restrained violet underlight.",
+      "batch": "priest-2",
+      "sheet": "priest/p8-black-benediction/sheet.png",
+      "size": [
+        1254,
+        1254
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "transparentPixelFraction": 0.7242,
+      "status": "Artwork pitch. Final aperture masks, edge cleanup and geometry registration remain before game use.",
+      "origin": "Built-in imagegen"
+    },
+    {
+      "id": "P9",
+      "class": "priest",
+      "name": "Balance of Contrition",
+      "inspiration": "Discipline / light and shadow held in tension",
+      "summary": "Paired ivory and charcoal ceramic, copper sutures and restrained amber/violet accents.",
+      "batch": "priest-2",
+      "sheet": "priest/p9-balance-of-contrition/sheet.png",
+      "size": [
+        1254,
+        1254
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "transparentPixelFraction": 0.7339,
+      "status": "Artwork pitch. Final aperture masks, edge cleanup and geometry registration remain before game use.",
+      "origin": "Built-in imagegen"
+    },
+    {
+      "id": "P10",
+      "class": "priest",
+      "name": "Light in the Trenches",
+      "inspiration": "Human or dwarf / veteran field priest",
+      "summary": "Weathered canvas, iron wire, worn leather, fresh linen and clear holy-water glass.",
+      "batch": "priest-2",
+      "sheet": "priest/p10-light-in-the-trenches/sheet.png",
+      "size": [
+        1254,
+        1254
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "transparentPixelFraction": 0.6956,
+      "status": "Artwork pitch. Final aperture masks, edge cleanup and geometry registration remain before game use.",
+      "origin": "Built-in imagegen"
+    }
+  ],
+  "installedAddonModified": false
+}

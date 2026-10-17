@@ -1,0 +1,263 @@
+{
+  "composition": "Mechanical alpha compositing of installed textures. No generated or repainted art.",
+  "sources": {
+    "wild-map.tga": {
+      "sha256": "5fafc9ded6ade5fee78b491a4fea4d1acd06ee70ae7da7a793a7b6312cd519c9"
+    },
+    "wild-primary.tga": {
+      "sha256": "cad1dbdbaed8c447b081bb7fb7bf0456de60d1f35081bf243df0aeb1b4c808fb"
+    },
+    "wild-left-wing.tga": {
+      "sha256": "615bd0d464c43b8f125a342255b03cf40ee7881741c01dd6b4475278c0e32614"
+    },
+    "wild-right-wing.tga": {
+      "sha256": "ad3bdf845a420321efb8c6e01a8674ec52414379ed9471adf24b207e89971a5e"
+    },
+    "wild-unitframe.tga": {
+      "sha256": "96a9c34082013c4616a25efb21adf2015434b4c8a27f66ebf34462d76bac8cff"
+    },
+    "bramble-castbar.tga": {
+      "sha256": "ea4481aa073e1763c645818138a8374bf0b15298ada59d2974e871d45d40fb31"
+    },
+    "wild-resource.tga": {
+      "sha256": "7da1efb0f7065150b649263f9095f54ac94331f19bd3700f4e6696b98c3781b0"
+    },
+    "wild-power-right-v2.tga": {
+      "sha256": "cef392a06272c9fb5cdfbdcfc5c12d455292ab54c4ec323aa254d841dfc3fcb0"
+    },
+    "wild-combo-branch-v3.tga": {
+      "sha256": "f71a177ac10d057ab775ba3daf68ab6f7392f05269696ad89afcc8c82dc4ab90"
+    },
+    "wild-combo-bloom-v4-1.tga": {
+      "sha256": "ae79e33d2c73888007113fbb283b44749c7770f61eacde8bca8265f99aafd26d"
+    },
+    "wild-combo-bloom-v4-2.tga": {
+      "sha256": "ae2d1ca52443d0f0f47b3064bc2ab7131de43b4ac77d3135a7700589374256cd"
+    },
+    "wild-combo-bloom-v4-3.tga": {
+      "sha256": "724ff68fc03fdc0fbfef2f3da3e78009e82d4e7493125f81a9a9909052997d81"
+    },
+    "wild-combo-bloom-v4-4.tga": {
+      "sha256": "68f70591d9bf769a6268b01053d6ff2e18d64a3c72b328b799b60eda8610cfd2"
+    },
+    "wild-combo-bloom-v4-5.tga": {
+      "sha256": "ccc3185b5646d8939ef813beec0d7e23fc25a3df8da39d14760e5783a61eba17"
+    },
+    "wild-menu-1.tga": {
+      "sha256": "8634468d178ea586aa66c757ea03bb9197646041c3ba203300e6aa646707307b"
+    },
+    "wild-menu-2.tga": {
+      "sha256": "6bee686c23f3a321d4433ff8255b80bc864c5f0dcbf7334b4e367312e36963ec"
+    },
+    "wild-menu-3.tga": {
+      "sha256": "7feab90a80968a454dc7b054462269d8a4645dd123bd17dd7020420b4a5abc43"
+    },
+    "wild-menu-4.tga": {
+      "sha256": "c1191ff9f6bb921dfd7eea9f2864d09f2fff112ef6ff471bc60af150750642b9"
+    },
+    "wild-menu-5.tga": {
+      "sha256": "17e2a39699c820a37fbb55383fad9bef21fbe556ad9e322fd70f734cadea76a4"
+    },
+    "wild-menu-6.tga": {
+      "sha256": "7cab0a545e18c72ee225d2ccfc8470797e079eee8c053e039f1fa67320c86acb"
+    },
+    "wild-menu-7.tga": {
+      "sha256": "e00a0fafc2226e99dc6ed580bdb06c4e803e347b13049eaaebb95cd233e38f09"
+    },
+    "wild-mail-rune.tga": {
+      "sha256": "0749c0bbed329acab1fdf1d65230706dad52a3be7688cc02bc53c472728ff64b"
+    },
+    "IMFeENsc28P.ttf": {
+      "sha256": "102324fb5434bb5da7963533426b0ad44c85bbc9e7755067535c9d11464a176b"
+    }
+  },
+  "placements": [
+    {
+      "component": "Registered map and three button banks",
+      "bounds": [
+        37,
+        0,
+        1180,
+        531
+      ]
+    },
+    {
+      "component": "Player unitframe",
+      "bounds": [
+        24,
+        510,
+        580,
+        232
+      ]
+    },
+    {
+      "component": "Target unitframe, native horizontal mirror",
+      "bounds": [
+        650,
+        510,
+        580,
+        232
+      ]
+    },
+    {
+      "component": "Cast casing",
+      "bounds": [
+        277,
+        753,
+        700,
+        110
+      ]
+    },
+    {
+      "component": "Bear threat casing",
+      "bounds": [
+        80,
+        885,
+        88,
+        310
+      ]
+    },
+    {
+      "component": "Energy and rage casing",
+      "bounds": [
+        1085,
+        885,
+        88,
+        310
+      ]
+    },
+    {
+      "component": "Blood Sap stage 1, enlarged detail",
+      "bounds": [
+        394,
+        910,
+        67,
+        67
+      ]
+    },
+    {
+      "component": "Blood Sap stage 2, enlarged detail",
+      "bounds": [
+        500,
+        910,
+        67,
+        67
+      ]
+    },
+    {
+      "component": "Blood Sap stage 3, enlarged detail",
+      "bounds": [
+        608,
+        910,
+        67,
+        67
+      ]
+    },
+    {
+      "component": "Blood Sap stage 4, enlarged detail",
+      "bounds": [
+        714,
+        910,
+        67,
+        67
+      ]
+    },
+    {
+      "component": "Blood Sap stage 5, enlarged detail",
+      "bounds": [
+        809,
+        897,
+        92,
+        92
+      ]
+    },
+    {
+      "component": "Registered five-point combo branch",
+      "bounds": [
+        206,
+        885,
+        229,
+        310
+      ]
+    },
+    {
+      "component": "Menu rune 1",
+      "bounds": [
+        490,
+        1101,
+        43,
+        74
+      ]
+    },
+    {
+      "component": "Menu rune 2",
+      "bounds": [
+        533,
+        1101,
+        43,
+        74
+      ]
+    },
+    {
+      "component": "Menu rune 3",
+      "bounds": [
+        576,
+        1101,
+        43,
+        74
+      ]
+    },
+    {
+      "component": "Menu rune 4",
+      "bounds": [
+        619,
+        1101,
+        43,
+        74
+      ]
+    },
+    {
+      "component": "Menu rune 5",
+      "bounds": [
+        661,
+        1101,
+        43,
+        74
+      ]
+    },
+    {
+      "component": "Menu rune 6",
+      "bounds": [
+        704,
+        1101,
+        43,
+        74
+      ]
+    },
+    {
+      "component": "Menu rune 7",
+      "bounds": [
+        747,
+        1101,
+        43,
+        74
+      ]
+    },
+    {
+      "component": "Mail rune",
+      "bounds": [
+        934,
+        1118,
+        63,
+        43
+      ]
+    }
+  ],
+  "notes": [
+    "Component positions rearranged for comparison, not a game screenshot.",
+    "Full combo branch and enlarged separate flower stages are both shown.",
+    "Zone title is a font specimen, not a texture in the installed addon.",
+    "Live map, portraits, spell icons, XP ring and resource fills are code or client content.",
+    "Buff reminders use live game icons, so no invented reminder casings are included."
+  ]
+}
